@@ -1,0 +1,52 @@
+.App {
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.color-item {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-greenyellow {
+  background-color: greenyellow;
+}
+
+.color-orange {
+  background-color: orange;
+}
+
+.color-magenta {
+  background-color: magenta;
+}
+
+.color-olive {
+  background-color: olive;
+}
+
+.color-gray {
+  background-color: gray;
+}
+
+.item-hidden {
+  visibility: hidden;
+}
